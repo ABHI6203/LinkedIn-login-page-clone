@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+body {
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+/* main container to wrap everything in the page */
+
+.wrap_container {
+    padding: 2rem 3.5rem;
+}
+
+/* it is the special box in which logo is contained */
+.header .logo {
+    width: 110px;
+    height: 30px;
+}
+
+.header .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+/* a main box which contains center box of main section */
+.main_box {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    flex-direction: column;
+}
+
+/* center input box which contains all inputs */
+.center_input_box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 352px;
+    aspect-ratio: 1;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* a box inside center box which contains the heading area of webpage */
+.heading_text {
+    margin-bottom: 10px;
+
+}
+
+.primary_heading {
+    font-weight: 550;
+    font-size: 1.8rem;
+}
+
+.text {
+    font-size: 13.5px;
+}
+
+/* a box inside center box which contains the input column */
+.userInput {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.userInput .userId {
+    width: 100%;
+    border: 1px solid #b6b6b6;
+    margin: auto 0;
+    padding: 12px 12px;
+    border-radius: 4px !important;
+    font-size: 1.1rem;
+}
+
+.userInput .userId:focus {
+    outline: none;
+    
+}
+
+/* a box inside center box which contains the section for forgot password */
+.link_forget_pass a {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0d66bf;
+}
+
+.link_forget_pass a:hover {
+    text-decoration: underline;
+    background-color: #add8e6;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+/* special box inside this which contains checkbox of sign in column */
+.alert_signIn {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    font-size: 1.1rem;
+}
+
+.alert_signIn #alert {
+    height: 18px;
+    width: 18px;
+    margin-top: 4px;
+}
+
+/* sign in button box */
+.button {
+    background-color: #0b66c3;
+    text-align: center;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.button .btn {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.button:hover {
+    background-color: #044483;
+}
+
+/* individual box for border like line */
+.line_box {
+    display: flex;
+    gap: 18px;
+
+}
+
+.line_box .line {
+    height: 0;
+    width: 100%;
+    margin-top: 17px;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.line_box .or {
+    font-size: 12px;
+    margin-top: 7px;
+}
+
+
+/* box to contains agreements and privacy policies */
+.text_agreement .policy {
+    font-size: 13px;
+
+}
+
+.text_agreement .policy a {
+    color: #1d72c5;
+    font-weight: 500;
+}
+
+
+.text_agreement .policy a:hover{
+    text-decoration: underline;
+}
+
+/* it is the box in which two sign in options are available */
+.option_to_sign_in {
+    width: 100%;
+
+
+}
+
+.option_to_sign_in .option {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    border: 2px solid red;
+    margin-bottom: 15px;
+    border: 1px solid #b6b6b6;
+    border-radius: 30px;
+    padding: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+.option_to_sign_in .option:hover {
+    background-color: rgba(207, 207, 207, 0.25);
+}
+
+
+/* last div in which join now option is available also to create new account */
+.join_now a {
+    font-weight: 600;
+    color: #0d66bf;
+}
+
+.join_now a:hover {
+    text-decoration: underline;
+    background-color: #add8e6;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+/* footer section */
+.footer {
+    margin-top: 40px;
+}
+
+.footer .list_items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.list_items li img {
+    width: 80px;
+    align-items: baseline;
+}
+
+.list_items li a {
+    color: #7d7565;
+    font-size: 12px;
+}
+
+.list_items li a:hover {
+    text-decoration: underline;
+}
